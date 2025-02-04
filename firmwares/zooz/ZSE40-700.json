@@ -1,0 +1,24 @@
+{
+	"devices": [
+		{
+			"brand": "Zooz",
+			"model": "ZSE40",
+			"manufacturerId": "0x027a",
+			"productType": "0x2021",
+			"productId": "0x2101",
+			"firmwareVersion": {
+				"min": "0.0",
+				"max": "255.255"
+			}
+		}
+	],
+	"upgrades": [
+		{
+			"version": "1.10",
+			"region": "usa",
+			"changelog": "* Firmware version changed to 1.10 to follow new naming convention for device firmware files. Added parameters 9 and 10 for temperature and humidity offset settings.",
+			"url": "https://www.getzooz.com/firmware/ZSE40-700_V1R10_US.gbl",
+			"integrity": "sha256:52b687d7043058f09c0a9309ddca88de3a49e7fb3d74387baf426b0c8e3f97f7"
+		},
+	]
+}
